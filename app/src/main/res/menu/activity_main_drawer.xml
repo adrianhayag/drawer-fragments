@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/picker_demo"
+            android:title="Picker Demo"
+            android:icon="@drawable/ic_action_sun"
+            />
+        <item
+            android:id="@+id/text_field_demo"
+            android:title="Text Field Demo"
+            android:icon="@drawable/ic_action_book"
+            />
+        <item
+            android:id="@+id/toggle_demo"
+            android:title="Toggle Demo"
+            android:icon="@drawable/ic_action_switch"/>
+    </group>
+</menu>
